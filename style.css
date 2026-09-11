@@ -1,0 +1,76 @@
+
+:root {
+    --primary-color: rgb(241, 255, 139);
+    --secondary-color: #5882d6;
+    --primary-font-family: ballet, cursive;
+    --secondary-font-family: montserrat, sans-serif;
+}
+
+html {
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    width: 100%;
+}
+h1 {
+    font-family: Ballet, cursive;
+    font-size: 5rem;
+    align-self: center;
+    justify-self: center;
+    text-align: center;
+    color: var(--primary-color)
+}
+h2 {
+    font-family: var(--secondary-font-family);
+    font-size: 2rem;
+    text-transform: uppercase;
+    color: white;
+    align-self: center;
+    justify-self: center;
+    text-align: center;
+    padding: 2vw
+}
+button1container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 32vh;
+}
+button1 {
+    background-color: rgb(255, 255, 255, 0.5);
+    align-items: center;
+    justify-content: center;
+    padding: 3vw;
+    margin: 3vw;
+    font-family: Ballet, cursive;
+    font-size: 3rem;
+}
+button1:hover {
+    background-color: rgb(255, 255, 255, 0.9);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+body1::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+    background-image: url(images/Records.jpg);
+    background-size: cover;
+    opacity: 0.5;
+}
+.collections-page {
+    background-color: var(--secondary-color);
+}
+collection {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1vh
+}
+collection img {
+    width: 100%;
+    height: 50vh;
+    object-fit: cover;
+    border: 1vw;
+}
