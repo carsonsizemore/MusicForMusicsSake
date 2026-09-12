@@ -12,14 +12,25 @@ html {
     padding: 0;
     min-height: 100vh;
     width: 100%;
+    transition: all 0.3s ease;
 }
 h1 {
     font-family: Ballet, cursive;
-    font-size: 5rem;
+    font-size: 8rem;
+    font-weight:400;
     align-self: center;
     justify-self: center;
     text-align: center;
-    color: var(--primary-color)
+    background-image: url(images/gold.jpeg);
+    background-size: contain;
+    background-position: center;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+    filter: drop-shadow(8px 4px 3px rgba(51, 34, 145, 0.888));
+    filter: drop-shadow(-2px -1px 2px rgba(255, 255, 255, 0.5));
+    padding: 5vh;
 }
 h2 {
     font-family: var(--secondary-font-family);
@@ -31,27 +42,35 @@ h2 {
     text-align: center;
     padding: 2vw
 }
-button1container {
+h3 {
+    font-family: var(--secondary-font-family);
+    color: var(--primary-color);
+    font-weight: 200;
+    letter-spacing: 1vw;
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 1vw
+}
+.button1container {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-top: 32vh;
+    padding-top: 35vh;
 }
-button1 {
+.button1 {
     background-color: rgb(255, 255, 255, 0.5);
     align-items: center;
     justify-content: center;
-    padding: 3vw;
-    margin: 3vw;
-    font-family: Ballet, cursive;
+    font-family: var(--primary-font-family);
     font-size: 3rem;
+    padding: 2vh
 }
-button1:hover {
+.button1:hover {
     background-color: rgb(255, 255, 255, 0.9);
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
     cursor: pointer;
 }
-body1::before {
+.body1::before {
     content: "";
     position: absolute;
     inset: 0;
@@ -62,15 +81,57 @@ body1::before {
 }
 .collections-page {
     background-color: var(--secondary-color);
+    display: grid
 }
-collection {
+.collection {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 1vh
+    gap: 1vh;
 }
-collection img {
+.collection img {
     width: 100%;
     height: 50vh;
     object-fit: cover;
     border: 1vw;
+}
+.collection img:hover {
+    height: 52vh;
+    filter: brightness(50%); 
+}
+.main-header {
+    position: fixed;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.3);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+}
+.main-title-h1 {
+    font-family: Ballet, cursive;
+    font-size: 8rem;
+    font-weight:400;
+    align-self: center;
+    justify-self: center;
+    text-align: center;
+    background-image: url(images/gold.jpeg);
+    background-size: contain;
+    background-position: center;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+    filter: drop-shadow(4px 2px 2px rgba(0, 0, 0, 0.5)) drop-shadow(-2px -1px 2px rgba(255, 255, 255, 0.5));
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    padding-right: 3vh;
+    padding-left: 1vh;
+}
+.main-title-h2 {
+    font-family: var(--secondary-font-family);
+    font-size: 2rem;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 3pt;
+    padding-left: 8vh;
+}
+.main-title {
+    padding-top: 14vh;
 }
