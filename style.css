@@ -87,6 +87,7 @@ h3 {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 1vh;
+    margin: 2vh
 }
 .collection img {
     width: 100%;
@@ -95,7 +96,7 @@ h3 {
     border: 1vw;
 }
 .collection img:hover {
-    height: 52vh;
+    height: 51vh;
     filter: brightness(50%); 
 }
 .main-header {
@@ -118,7 +119,7 @@ h3 {
     background-clip: text;
     color: transparent;
     -webkit-text-fill-color: transparent;
-    filter: drop-shadow(4px 2px 2px rgba(0, 0, 0, 0.5)) drop-shadow(-2px -1px 2px rgba(255, 255, 255, 0.5));
+    filter: drop-shadow(4px 2px 2px rgba(0, 0, 0, 0.5)) drop-shadow(-2px -1px 1px rgba(255, 255, 255, 0.9));
     padding-top: 5vh;
     padding-bottom: 5vh;
     padding-right: 3vh;
@@ -134,4 +135,30 @@ h3 {
 }
 .main-title {
     padding-top: 14vh;
+}
+@media screen and (max-width: 720px) {
+.collection {
+    display:grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    }
+.collection img {
+    height: 70vh;
+    width: 50vw
+}
+.collection img:hover {
+    height:72vh;
+}
+.main-title {
+    text-align: center;
+    padding: 6vh;
+}
+.main-title-h1 {
+    font-size: clamp(5rem, 1rem + 3vw ,8rem);
+    filter: drop-shadow(4px 2px 2px rgba(0, 0, 0, 0.5)) drop-shadow(-1px -0.5px 0.5px rgba(255, 255, 255, 0.9));
+}
+.main-title-h2 {
+    font-size: clamp(1rem, 0.75rem + 2vw, 3rem);
+    padding-bottom: 15vh;
+}
 }
