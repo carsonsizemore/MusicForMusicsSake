@@ -50,6 +50,10 @@ h3 {
     font-size: 1.5rem;
     padding: 1vw
 }
+h3:hover {
+    color: rgb(122, 134, 34);
+    font-weight: 400;
+}
 .button1container {
     display: flex;
     align-items: center;
