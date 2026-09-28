@@ -50,10 +50,6 @@ h3 {
     font-size: 1.5rem;
     padding: 1vw
 }
-h3:hover {
-    color: rgb(122, 134, 34);
-    font-weight: 400;
-}
 .button1container {
     display: flex;
     align-items: center;
@@ -138,6 +134,8 @@ h3:hover {
 }
 .main-title {
     padding-top: 14vh;
+    display: flex;
+    align-items: center;
 }
 @media screen and (max-width: 720px) {
 .collection {
@@ -164,4 +162,25 @@ h3:hover {
     font-size: clamp(1rem, 0.75rem + 2vw, 3rem);
     padding-bottom: 15vh;
 }
+}
+button {
+    font-family: var(--secondary-font-family);
+    color: var(--secondary-color);
+    text-transform: lowercase;
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 100%;
+    width: 100px;
+    height: 30px;
+    margin: 5px;
+    font-size: 1rem;
+}
+button:hover {
+    background-color: rgb(255, 255, 255);
+    width: 105px;
+    height: 35px;
+}
+ul {
+    display:flex;
+    align-items: center;
+    justify-content: center;
 }

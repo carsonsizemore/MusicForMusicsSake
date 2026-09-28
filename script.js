@@ -2,15 +2,53 @@ let albums
 fetch("albums.json").then(response => response.json())
     .then(json => {
         albums = json
-        for(let i = 0; i<albums.length; i++) {
-            let album = albums[i]
-            makeAlbum(album)
-        }
+        displayAllAlbums(albums)
+        setupFilters()
     })
     .catch(error => console.log("error", error))
 
-    function makeAlbum(album) {
-        let albumSection = document.querySelector('.colection')
+    function displayAlbum(album) {
+        let albumSection = document.querySelector('.collection')
         let genre = album.Genre
-        console.log (genre)
+        let newAlbum = document.createElement("div")
+        let genreList = document.createElement("p")
+        newAlbum.classList.add("card")
+        genreList.classList.add("genre")
+        newAlbum.appendChild(genreList)
+        albumSection.appendChild(newAlbum)
+        newAlbum.innerHTML = `
+            <img src=${album.Path}/>
+            `;
+    }
+    function displayAllAlbums(albums) {
+        let albumSection = document.querySelector('.collection');
+        albumSection.innerHTML = ""
+        albums.forEach((album) => displayAlbum(album));
+    }
+    function setupFilters(){
+        let filterButtons = document.querySelectorAll('.filter');
+        filterButtons.forEach((buttton) => {
+            buttton.addEventListener("click", function(event){
+                let target= event.target;
+                let genre = target.getAttribute("data-genre");
+                let decade = target.getAttribute("data-decade");
+                if (genre) {
+                    if (genre.toLowerCase() === "all") {
+                        displayAllAlbums(albums);
+                    } else {
+                        let filtered = albums.filter(
+                            (album) => album.Genre.toLowerCase() === genre.toLowerCase()
+                        );
+                        displayAllAlbums(filtered);
+                    }
+                }
+                if(decade) {
+                let startYear = parseInt(decade, 10);
+                let filtered = albums.filter(
+                    (album) => album.Year >= startYear && album.Year < startYear + 10
+                );
+                displayAllAlbums(filtered);
+            }
+            })
+        })
     }
