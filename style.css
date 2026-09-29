@@ -50,26 +50,31 @@ h3 {
     font-size: 1.5rem;
     padding: 1vw
 }
-.button1container {
+#button1container {
     display: flex;
     align-items: center;
     justify-content: center;
     padding-top: 35vh;
 }
-.button1 {
+#button1 {
     background-color: rgb(255, 255, 255, 0.5);
     align-items: center;
     justify-content: center;
     font-family: var(--primary-font-family);
     font-size: 3rem;
-    padding: 2vh
+    padding: 2vh;
+    color:rgb(0, 0, 0);
+    border-radius: 0%;
+    width: 400px;
+    height: 120px;
+    text-transform: none;
 }
-.button1:hover {
+#button1:hover {
     background-color: rgb(255, 255, 255, 0.9);
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
     cursor: pointer;
 }
-.body1::before {
+#body1::before {
     content: "";
     position: absolute;
     inset: 0;
@@ -89,7 +94,7 @@ h3 {
     margin: 2vh
 }
 .collection img {
-    width: 100%;
+    width: 275px;
     height: 50vh;
     object-fit: cover;
     border: 1vw;

@@ -9,15 +9,10 @@ fetch("albums.json").then(response => response.json())
 
     function displayAlbum(album) {
         let albumSection = document.querySelector('.collection')
-        let genre = album.Genre
         let newAlbum = document.createElement("div")
-        let genreList = document.createElement("p")
-        newAlbum.classList.add("card")
-        genreList.classList.add("genre")
-        newAlbum.appendChild(genreList)
         albumSection.appendChild(newAlbum)
         newAlbum.innerHTML = `
-            <img src=${album.Path}/>
+            <img src=${album.Path}>
             `;
     }
     function displayAllAlbums(albums) {
