@@ -24,15 +24,15 @@
     "Album_Name": "x100pre",
     "Artist": "Bad_Bunny",
     "Year": 2018,
-    "Genre": "Urbano_latino",
-    "Path": "images/IMG_0194.jpg"
+    "Genre": "Latin",
+    "Path": "images/IMG_0195.jpg"
   },
   {
     "Album_Name": "Debí_Tirar_Más_Fotos",
     "Artist": "Bad_Bunny",
     "Year": 2025,
     "Genre": "Latin",
-    "Path": "images/IMG_0195.jpg"
+    "Path": "images/IMG_0194.jpg"
   },
   {
     "Album_Name": "SO_CLOSE_TO_WHAT???",
@@ -346,7 +346,7 @@
     "Album_Name": "Sublime",
     "Artist": "Sublime",
     "Year": 1996,
-    "Genre": "Alternative",
+    "Genre": "Rock",
     "Path": "images/Sublime.png"
   }
 ]

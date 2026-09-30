@@ -27,6 +27,9 @@ fetch("albums.json").then(response => response.json())
                 let target= event.target;
                 let genre = target.getAttribute("data-genre");
                 let decade = target.getAttribute("data-decade");
+                console.log("genre", genre)
+                console.log("decade", decade)
+                let filteredAlblums
                 if (genre) {
                     if (genre.toLowerCase() === "all") {
                         displayAllAlbums(albums);
@@ -36,14 +39,19 @@ fetch("albums.json").then(response => response.json())
                         );
                         displayAllAlbums(filtered);
                     }
-                }
+                } 
                 if(decade) {
                 let startYear = parseInt(decade, 10);
+                let endYear = startYear + 10
                 let filtered = albums.filter(
-                    (album) => album.Year >= startYear && album.Year < startYear + 10
+                    (album) => album.Year >= startYear && album.Year < endYear
                 );
                 displayAllAlbums(filtered);
             }
             })
         })
     }
+
+window.addEventListener('pageshow', (event) => {
+  document.body.classList.add('loaded');
+});

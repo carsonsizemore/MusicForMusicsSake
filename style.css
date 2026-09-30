@@ -5,7 +5,15 @@
     --primary-font-family: ballet, cursive;
     --secondary-font-family: montserrat, sans-serif;
 }
-
+body {
+  opacity: 0;
+  transform: translateY(12px);
+  transition: opacity 0.4s ease-out, transform 0.4s ease-out;
+}
+body.loaded {
+  opacity: 1;
+  transform: translateY(0);
+}
 html {
     font-size: 16px;
     margin: 0;
@@ -13,13 +21,15 @@ html {
     min-height: 100vh;
     width: 100%;
 }
+p {
+    font-family: var(--secondary-font-family);
+    color: var(--primary-color);
+    line-height: 1.5;
+}
 h1 {
     font-family: Ballet, cursive;
     font-size: 8rem;
     font-weight:400;
-    align-self: center;
-    justify-self: center;
-    text-align: center;
     background-image: url(images/gold.jpeg);
     background-size: contain;
     background-position: center;
@@ -36,9 +46,6 @@ h2 {
     font-size: 2rem;
     text-transform: uppercase;
     color: white;
-    align-self: center;
-    justify-self: center;
-    text-align: center;
     padding: 2vw
 }
 h3 {
@@ -79,10 +86,25 @@ h3 {
     position: absolute;
     inset: 0;
     z-index: -1;
-    background-image: url(images/Records.jpg);
-    background-size: cover;
+    width: 100vw;
+    height: 100dvh;
     opacity: 0.5;
+    background-image: url(images/Records.jpg);
+    background-repeat: repeat-y;
+    background-size: cover;
+    animation: scrollBackground 20s linear infinite;
+    
 }
+
+@keyframes scrollBackground {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 0 1000px; 
+  }
+}
+
 .collections-page {
     background-color: var(--secondary-color);
     display: grid
@@ -91,7 +113,7 @@ h3 {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 1vh;
-    margin: 2vh
+    margin: 2vh;
 }
 .collection img {
     width: 275px;
@@ -113,9 +135,6 @@ h3 {
     font-family: Ballet, cursive;
     font-size: 8rem;
     font-weight:400;
-    align-self: center;
-    justify-self: center;
-    text-align: center;
     background-image: url(images/gold.jpeg);
     background-size: contain;
     background-position: center;
@@ -124,10 +143,10 @@ h3 {
     color: transparent;
     -webkit-text-fill-color: transparent;
     filter: drop-shadow(4px 2px 2px rgba(0, 0, 0, 0.5)) drop-shadow(-2px -1px 1px rgba(255, 255, 255, 0.9));
-    padding-top: 5vh;
-    padding-bottom: 5vh;
+    padding-bottom: 7vh;
     padding-right: 3vh;
-    padding-left: 1vh;
+    padding-left: 5vh;
+    text-align: left;
 }
 .main-title-h2 {
     font-family: var(--secondary-font-family);
@@ -135,38 +154,13 @@ h3 {
     text-transform: uppercase;
     color: white;
     letter-spacing: 3pt;
-    padding-left: 8vh;
+    font-weight: 200;
+    text-align: left;
+    padding-left: 5vw;
 }
 .main-title {
     padding-top: 14vh;
-    display: flex;
-    align-items: center;
-}
-@media screen and (max-width: 720px) {
-.collection {
-    display:grid;
-    grid-template-columns: 1fr;
-    justify-content: center;
-    }
-.collection img {
-    height: 70vh;
-    width: 50vw
-}
-.collection img:hover {
-    height:72vh;
-}
-.main-title {
-    text-align: center;
-    padding: 6vh;
-}
-.main-title-h1 {
-    font-size: clamp(5rem, 1rem + 3vw ,8rem);
-    filter: drop-shadow(4px 2px 2px rgba(0, 0, 0, 0.5)) drop-shadow(-1px -0.5px 0.5px rgba(255, 255, 255, 0.9));
-}
-.main-title-h2 {
-    font-size: clamp(1rem, 0.75rem + 2vw, 3rem);
-    padding-bottom: 15vh;
-}
+    grid-area: section1;
 }
 button {
     font-family: var(--secondary-font-family);
@@ -174,18 +168,54 @@ button {
     text-transform: lowercase;
     background-color: rgba(255, 255, 255, 0.6);
     border-radius: 100%;
-    width: 100px;
+    width: 105px;
     height: 30px;
-    margin: 5px;
+    margin: 10px;
     font-size: 1rem;
 }
 button:hover {
     background-color: rgb(255, 255, 255);
     width: 105px;
-    height: 35px;
+    height: 32px;
 }
-ul {
-    display:flex;
-    align-items: center;
-    justify-content: center;
+main {
+    display: grid;
+    grid-template-columns: .5fr 1fr;
+    grid-template-areas: "section1 section2";
+}
+.filter-buttons {
+    display: grid;
+    padding-top: 17vh;
+    grid-area: section2;
+}
+.stack {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "section3 section4";
+}
+#second-row {
+    font-family: Ballet, cursive;
+    font-size: 8rem;
+    font-weight:400;
+    background-image: url(images/gold.jpeg);
+    background-size: contain;
+    background-position: center;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+    filter: drop-shadow(4px 2px 2px rgba(0, 0, 0, 0.5)) drop-shadow(-2px -1px 1px rgba(255, 255, 255, 0.9));
+    padding-bottom: 5vh;
+    padding-right: 3vh;
+    padding-left: 5vh;
+    text-align: left;
+    grid-area: section3;
+}
+#blurb {
+    grid-area: section4;
+    padding-right: 8vw;
+    padding-top: 2vw;
+}
+#Vesper-IMG {
+    width: 1007px;
 }
