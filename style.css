@@ -57,6 +57,12 @@ h3 {
     font-size: 1.5rem;
     padding: 1vw
 }
+.main-header {
+    position: fixed;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.3);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+}
 #button1container {
     display: flex;
     align-items: center;
@@ -112,24 +118,15 @@ h3 {
 .collection {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 1vh;
-    margin: 2vh;
 }
 .collection img {
-    width: 275px;
-    height: 50vh;
+    width: 252px;
+    height: 45vh;
     object-fit: cover;
-    border: 1vw;
 }
 .collection img:hover {
-    height: 51vh;
+    width:270px;
     filter: brightness(50%); 
-}
-.main-header {
-    position: fixed;
-    width: 100%;
-    background-color: rgba(255, 255, 255, 0.3);
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
 }
 .main-title-h1 {
     font-family: Ballet, cursive;
@@ -167,16 +164,31 @@ button {
     color: var(--secondary-color);
     text-transform: lowercase;
     background-color: rgba(255, 255, 255, 0.6);
-    border-radius: 100%;
-    width: 105px;
-    height: 30px;
+    width: 120px;
+    height: 50px;
     margin: 10px;
     font-size: 1rem;
 }
+.random-song-generator {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    width: 150px;
+    height: 60px;
+    rotate: 5deg;
+}
+.random-song-generator:hover {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    width: 150px;
+    height: 60px;
+    rotate: -5deg;
+}
 button:hover {
     background-color: rgb(255, 255, 255);
-    width: 105px;
-    height: 32px;
+    width: 120px;
+    height: 50px;
+    margin: 10px;
+    font-size: 1rem;
 }
 main {
     display: grid;
@@ -218,5 +230,4 @@ main {
 }
 #Vesper-IMG {
     width: 1007px;
-    repeat: 
 }

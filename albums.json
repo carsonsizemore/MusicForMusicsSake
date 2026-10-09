@@ -1,352 +1,452 @@
 [
   {
-    "Album_Name": "Blue_Slide_Park",
-    "Artist": "Mac_Miller",
+    "Album Name": "Blue Slide Park",
+    "Artist": "Mac Miller",
     "Year": 2011,
     "Genre": "Hip-Hop",
-    "Path": "images/IMG_0191.jpg"
+    "Path": "images/IMG_0191.jpg",
+    "Vibe": "get_hype",
+    "Link": "https://youtu.be/BivAg93uW2s?si=8OwOZ-GpclGgVdy6"
   },
   {
-    "Album_Name": "GO:OD_AM",
-    "Artist": "Mac_Miller",
+    "Album Name": "GO:OD AM",
+    "Artist": "Mac Miller",
     "Year": 2025,
     "Genre": "Hip-Hop",
-    "Path": "images/IMG_0192.jpg"
+    "Path": "images/IMG_0192.jpg",
+    "Vibe": "chill",
+    "Link": "https://youtu.be/-O8_Gpdzvug?si=5jEfjwZxf9lQoe4A"
   },
   {
-    "Album_Name": "Un_Verano_Sin_Ti",
-    "Artist": "Bad_Bunny",
+    "Album Name": "Un Verano Sin Ti",
+    "Artist": "Bad Bunny",
     "Year": 2022,
     "Genre": "Latin",
-    "Path": "images/IMG_0193.jpg"
+    "Path": "images/IMG_0193.jpg",
+    "Vibe": "chill",
+    "Link": "https://youtu.be/czx0dQe-3uk?si=n8X-z2jg6AFFNKqJ"
   },
   {
-    "Album_Name": "x100pre",
-    "Artist": "Bad_Bunny",
+    "Album Name": "x100pre",
+    "Artist": "Bad Bunny",
     "Year": 2018,
     "Genre": "Latin",
-    "Path": "images/IMG_0195.jpg"
+    "Path": "images/IMG_0195.jpg",
+    "Vibe": "get_hype",
+    "Link": "https://youtu.be/4oiZdbwxUuQ?si=JTD7yMJ8npl2g_u2"
   },
   {
-    "Album_Name": "Debí_Tirar_Más_Fotos",
-    "Artist": "Bad_Bunny",
+    "Album Name": "Debí Tirar Más Fotos",
+    "Artist": "Bad Bunny",
     "Year": 2025,
     "Genre": "Latin",
-    "Path": "images/IMG_0194.jpg"
+    "Path": "images/IMG_0194.jpg",
+    "Vibe": "uplifting",
+    "Link": "https://youtu.be/fpck7o5j9_8?si=yDKkVF1SKdj9dfwB"
   },
   {
-    "Album_Name": "SO_CLOSE_TO_WHAT???",
-    "Artist": "Tate_Mcrae",
+    "Album Name": "SO CLOSE TO WHAT???",
+    "Artist": "Tate Mcrae",
     "Year": 2025,
     "Genre": "Pop",
-    "Path": "images/IMG_0196.jpg"
+    "Path": "images/IMG_0196.jpg",
+    "Vibe": "get_hype",
+    "Link": "https://youtu.be/rwlFWWGaZ5Y?si=ZI-9l6Po99XU1z7L"
   },
   {
-    "Album_Name": "THINK_LATER",
-    "Artist": "Tate_Mcrae",
+    "Album Name": "THINK LATER",
+    "Artist": "Tate Mcrae",
     "Year": 2023,
     "Genre": "Pop",
-    "Path": "images/IMG_0197.jpg"
+    "Path": "images/IMG_0197.jpg",
+    "Vibe": "get_hype",
+    "Link": "https://youtu.be/A7SW6VxW26s?si=gPE4oE0dOhM2gjD6"
   },
   {
-    "Album_Name": "you_seem_pretty_sad_for_a_girl_so_in_love",
-    "Artist": "Olivia_Rodrigo",
+    "Album Name": "you seem pretty sad for a girl so in love",
+    "Artist": "Olivia Rodrigo",
     "Year": 2026,
     "Genre": "Pop",
-    "Path": "images/IMG_0198.jpg"
+    "Path": "images/IMG_0198.jpg",
+    "Vibe": "feeling_blue",
+    "Link": "https://youtu.be/Rt9tW3cMLhI?si=B6CF2lU5xq46uPNI"
   },
   {
-    "Album_Name": "No_Shame",
+    "Album Name": "No Shame",
     "Artist": "Pepper",
     "Year": 2006,
     "Genre": "Reggae",
-    "Path": "images/IMG_0199.jpg"
+    "Path": "images/IMG_0199.jpg",
+    "Vibe": "study_music",
+    "Link": "https://youtu.be/2HGOSFtpx5c?si=gjASMAg1ByGDv_Ok"
   },
   {
-    "Album_Name": "40oz._to_Freedom",
+    "Album Name": "40oz. to Freedom",
     "Artist": "Sublime",
     "Year": 1992,
     "Genre": "Alternative",
-    "Path": "images/IMG_0200.jpg"
+    "Path": "images/IMG_0200.jpg",
+    "Vibe": "chill",
+    "Link": "https://youtu.be/KQnzeKKg7Yc?si=DJ-olcnGqC365kPn"
   },
   {
-    "Album_Name": "good_kid,_m.A.A.d_city",
-    "Artist": "Kendrick_Lamar",
+    "Album Name": "good kid, m.A.A.d city",
+    "Artist": "Kendrick Lamar",
     "Year": 2012,
     "Genre": "Hip-Hop",
-    "Path": "images/IMG_0201.jpg"
+    "Path": "images/IMG_0201.jpg",
+    "Vibe": "get_hype",
+    "Link": "https://youtu.be/Y4Ep_-gsT58?si=4z9R_OgDUf2hc_aX"
   },
   {
-    "Album_Name": "thank_u,_next",
-    "Artist": "Ariana_Grande",
+    "Album Name": "thank u, next",
+    "Artist": "Ariana Grande",
     "Year": 2019,
     "Genre": "Pop",
-    "Path": "images/IMG_0202.jpg"
+    "Path": "images/IMG_0202.jpg",
+    "Vibe": "get_hype",
+    "Link": "https://youtu.be/WWvJw5sW3EQ?si=65GB_EEuYnD1CXoj"
   },
   {
-    "Album_Name": "Every_Waking_Moment",
-    "Artist": "Citizen_Cope",
+    "Album Name": "Every Waking Moment",
+    "Artist": "Citizen Cope",
     "Year": 2006,
     "Genre": "Alternative",
-    "Path": "images/IMG_0203.jpg"
+    "Path": "images/IMG_0203.jpg",
+    "Vibe": "feeling_blue",
+    "Link": "https://youtu.be/YGCEH-LkYFc?si=8PpuUBNMRysBZegD"
   },
   {
-    "Album_Name": "The_Clarence_Greenwood_Recordings",
-    "Artist": "Citizen_Cope",
+    "Album Name": "The Clarence Greenwood Recordings",
+    "Artist": "Citizen Cope",
     "Year": 2004,
     "Genre": "Pop",
-    "Path": "images/IMG_0204.jpg"
+    "Path": "images/IMG_0204.jpg",
+    "Vibe": "chill",
+    "Link": "https://youtu.be/rarjMjFVHy0?si=V5k-kMNEGuxz8ud3"
   },
   {
-    "Album_Name": "Tropicoqueta",
-    "Artist": "Karol_G",
+    "Album Name": "Tropicoqueta",
+    "Artist": "Karol G",
     "Year": 2025,
     "Genre": "Latin",
-    "Path": "images/IMG_0205.jpg"
+    "Path": "images/IMG_0205.jpg",
+    "Vibe": "get_hype",
+    "Link": "https://youtu.be/2cdmXPvBt1o?si=RA9WCTQfYuDthwQ_"
   },
   {
-    "Album_Name": "Salad_Days",
-    "Artist": "Mac_Demarco",
+    "Album Name": "Salad Days",
+    "Artist": "Mac Demarco",
     "Year": 2014,
     "Genre": "Alternative",
-    "Path": "images/IMG_0206.jpg"
+    "Path": "images/IMG_0206.jpg",
+    "Vibe": "study_music",
+    "Link": "https://youtu.be/PpW5nn6L0U4?si=UdR8uLDejuEtBt8K"
   },
   {
-    "Album_Name": "The_Bends",
+    "Album Name": "The Bends",
     "Artist": "Radiohead",
     "Year": 1995,
     "Genre": "Alternative",
-    "Path": "images/IMG_0207.jpg"
+    "Path": "images/IMG_0207.jpg",
+    "Vibe": "chill",
+    "Link": "https://youtu.be/3ZKxungSg9U?si=KAhU_5FQhtXjQoB1"
   },
   {
-    "Album_Name": "AM",
-    "Artist": "Arctic_Monkeys",
+    "Album Name": "AM",
+    "Artist": "Arctic Monkeys",
     "Year": 2013,
     "Genre": "Alternative",
-    "Path": "images/IMG_0208.jpg"
+    "Path": "images/IMG_0208.jpg",
+    "Vibe": "chill",
+    "Link": "https://youtu.be/4ZWOnok69Mw?si=lzEU9wkoIUIh2HLw"
   },
   {
-    "Album_Name": "Melophobia",
-    "Artist": "Cage_the_Elephant",
+    "Album Name": "Melophobia",
+    "Artist": "Cage the Elephant",
     "Year": 2013,
     "Genre": "Alternative",
-    "Path": "images/IMG_0209.jpg"
+    "Path": "images/IMG_0209.jpg",
+    "Vibe": "feeling_blue",
+    "Link": "https://youtu.be/lo1WWDI98Cs?si=nqdhyqtJEzEvGsjW"
   },
   {
-    "Album_Name": "Harvest_Moon",
-    "Artist": "Neil_Young",
+    "Album Name": "Harvest Moon",
+    "Artist": "Neil Young",
     "Year": 1992,
     "Genre": "Alternative",
-    "Path": "images/IMG_0210.jpg"
+    "Path": "images/IMG_0210.jpg",
+    "Vibe": "study_music",
+    "Link": "https://youtu.be/O97SYiBA1W8?si=wSUloVbP_Kd2WVIz"
   },
   {
-    "Album_Name": "The_Prodigal",
-    "Artist": "Josiah_Queen",
+    "Album Name": "The Prodigal",
+    "Artist": "Josiah Queen",
     "Year": 2024,
     "Genre": "Christian",
-    "Path": "images/IMG_0211.jpg"
+    "Path": "images/IMG_0211.jpg",
+    "Vibe": "uplifting",
+    "Link": "https://youtu.be/D6k5R6E8q2s?si=DuY2EUg-kn1KvJte"
   },
   {
-    "Album_Name": "(Whats's_the_Story)_Morning_Glory?",
+    "Album Name": "(Whats's the Story) Morning Glory?",
     "Artist": "Oasis",
     "Year": 1995,
-    "Genre": "indie_rock",
-    "Path": "images/IMG_0212.jpg"
+    "Genre": "indie rock",
+    "Path": "images/IMG_0212.jpg",
+    "Vibe": "uplifting",
+    "Link": "https://youtu.be/6hzrDeceEKc?si=9B_MmCeiHX2wQblI"
   },
   {
-    "Album_Name": "An_Evening_with_Silk_Sonic",
-    "Artist": "Bruno_Mars",
+    "Album Name": "An Evening with Silk Sonic",
+    "Artist": "Bruno Mars",
     "Year": 2021,
     "Genre": "R&B",
-    "Path": "images/IMG_0213.jpg"
+    "Path": "images/IMG_0213.jpg",
+    "Vibe": "chill",
+    "Link": "https://youtu.be/adLGHcj_fmA?si=eeX9uWvTTd1Y78pW"
   },
   {
-    "Album_Name": "License_to_Ill",
-    "Artist": "Beastie_Boys",
+    "Album Name": "License to Ill",
+    "Artist": "Beastie Boys",
     "Year": 1986,
     "Genre": "Hip-Hop",
-    "Path": "images/IMG_0214.jpg"
+    "Path": "images/IMG_0214.jpg",
+    "Vibe": "get_hype",
+    "Link": "https://youtu.be/kdfF0cOC50w?si=QtKH7XEgWEBTbAln"
   },
   {
-    "Album_Name": "SOS",
+    "Album Name": "SOS",
     "Artist": "SZA",
     "Year": 2022,
     "Genre": "R&B",
-    "Path": "images/IMG_0215.jpg"
+    "Path": "images/IMG_0215.jpg",
+    "Vibe": "chill",
+    "Link": "https://youtu.be/2B-G_jB0Wzo?si=oQ6OhA1QTVt_gnqP"
   },
   {
-    "Album_Name": "Purgatory",
-    "Artist": "Tyler_Childers",
+    "Album Name": "Purgatory",
+    "Artist": "Tyler Childers",
     "Year": 2017,
     "Genre": "Country",
-    "Path": "images/IMG_0216.jpg"
+    "Path": "images/IMG_0216.jpg",
+    "Vibe": "feeling_blue",
+    "Link": "https://youtu.be/t2VHgp-9SX4?si=nYSUxNhpUMCRbQDf"
   },
   {
-    "Album_Name": "30",
+    "Album Name": 30,
     "Artist": "Adele",
     "Year": 2021,
     "Genre": "Pop",
-    "Path": "images/IMG_0217.jpg"
+    "Path": "images/IMG_0217.jpg",
+    "Vibe": "feeling_blue",
+    "Link": "https://youtu.be/vjtbafmOjcY?si=xfr1oQrXI5mCba1o"
   },
   {
-    "Album_Name": "In_Between_Dreams",
-    "Artist": "Jack_Johnson",
+    "Album Name": "In Between Dreams",
+    "Artist": "Jack Johnson",
     "Year": 2005,
     "Genre": "Rock",
-    "Path": "images/IMG_0218.jpg"
+    "Path": "images/IMG_0218.jpg",
+    "Vibe": "feeling_blue",
+    "Link": "https://youtu.be/OkyrIRyrRdY?si=UCPenv0Weo_6SdQQ"
   },
   {
-    "Album_Name": "Brushfire_Fairytales",
-    "Artist": "Jack_Johnson",
+    "Album Name": "Brushfire Fairytales",
+    "Artist": "Jack Johnson",
     "Year": 2001,
     "Genre": "Rock",
-    "Path": "images/IMG_0219.jpg"
+    "Path": "images/IMG_0219.jpg",
+    "Vibe": "study_music",
+    "Link": "https://youtu.be/Fo1Du5CTNm0?si=IaoyfL5wCwQn9kfS"
   },
   {
-    "Album_Name": "Joanne",
-    "Artist": "Lady_Gaga",
+    "Album Name": "Joanne",
+    "Artist": "Lady Gaga",
     "Year": 2016,
     "Genre": "Pop",
-    "Path": "images/IMG_0220.jpg"
+    "Path": "images/IMG_0220.jpg",
+    "Vibe": "feeling_blue",
+    "Link": "https://youtu.be/FtUBM40_QzU?si=o_ylKXYXOdNAjcPl"
   },
   {
-    "Album_Name": "The_Stranger",
-    "Artist": "Billy_Joel",
+    "Album Name": "The Stranger",
+    "Artist": "Billy Joel",
     "Year": 1977,
     "Genre": "Rock",
-    "Path": "images/IMG_0221.jpg"
+    "Path": "images/IMG_0221.jpg",
+    "Vibe": "feeling_blue",
+    "Link": "https://youtu.be/46n1WSuaxOs?si=ryn7b4VXDi6150gE"
   },
   {
-    "Album_Name": "evermore",
-    "Artist": "Taylor_Swift",
+    "Album Name": "evermore",
+    "Artist": "Taylor Swift",
     "Year": 2020,
     "Genre": "Alternative",
-    "Path": "images/IMG_0222.jpg"
+    "Path": "images/IMG_0222.jpg",
+    "Vibe": "feeling_blue",
+    "Link": "https://youtu.be/KXfRhqXbXT0?si=WwGtSKQ--m8lDwOC"
   },
   {
-    "Album_Name": "Because_the_Internet",
-    "Artist": "Childish_Gambino",
+    "Album Name": "Because the Internet",
+    "Artist": "Childish Gambino",
     "Year": 2013,
     "Genre": "Hip-Hop",
-    "Path": "images/IMG_0223.jpg"
+    "Path": "images/IMG_0223.jpg",
+    "Vibe": "get_hype",
+    "Link": "https://youtu.be/v-Ia5JJu2rk?si=SDPFDIAvf7M7vx3I"
   },
   {
-    "Album_Name": "Did_I_Shave_my_Legs_for_This?",
-    "Artist": "Deana_Carter",
+    "Album Name": "Did I Shave my Legs for This?",
+    "Artist": "Deana Carter",
     "Year": 1996,
     "Genre": "Country",
-    "Path": "images/IMG_0224.jpg"
+    "Path": "images/IMG_0224.jpg",
+    "Vibe": "chill",
+    "Link": "https://youtu.be/Up06CryWQpE?si=zLDFbjds-NScrKHk"
   },
   {
-    "Album_Name": "Californication",
-    "Artist": "Red_Hot_Chili_Peppers",
+    "Album Name": "Californication",
+    "Artist": "Red Hot Chili Peppers",
     "Year": 1999,
     "Genre": "Alternative",
-    "Path": "images/IMG_0225.jpg"
+    "Path": "images/IMG_0225.jpg",
+    "Vibe": "chill",
+    "Link": "https://youtu.be/YlUKcNNmywk?si=BVF4oSH3IhdRFbUc"
   },
   {
-    "Album_Name": "Abbey_Road",
-    "Artist": "The_Beatles",
+    "Album Name": "Abbey Road",
+    "Artist": "The Beatles",
     "Year": 1969,
     "Genre": "Rock",
-    "Path": "images/IMG_0226.jpg"
+    "Path": "images/IMG_0226.jpg",
+    "Vibe": "feeling_blue",
+    "Link": "https://youtu.be/A_MjCqQoLLA?si=-ax5XC7qgCRgCQBI"
   },
   {
-    "Album_Name": "Happier_than_Ever",
-    "Artist": "Billie_Eilish",
+    "Album Name": "Happier than Ever",
+    "Artist": "Billie Eilish",
     "Year": 2021,
     "Genre": "Alternative",
-    "Path": "images/IMG_0227.jpg"
+    "Path": "images/IMG_0227.jpg",
+    "Vibe": "feeling_blue",
+    "Link": "https://youtu.be/iI4FoiF69IA?si=eBHBh7b5YBxJDPzD"
   },
   {
-    "Album_Name": "Rumours",
-    "Artist": "Fleetwood_Mac",
+    "Album Name": "Rumours",
+    "Artist": "Fleetwood Mac",
     "Year": 1977,
     "Genre": "Rock",
-    "Path": "images/IMG_0228.jpg"
+    "Path": "images/IMG_0228.jpg",
+    "Vibe": "chill",
+    "Link": "https://youtu.be/RqjXn2NflqU?si=rvz1jI9kEmNCks99"
   },
   {
-    "Album_Name": "Some_Nights",
+    "Album Name": "Some Nights",
     "Artist": "Fun.",
     "Year": 2012,
     "Genre": "Alternative",
-    "Path": "images/IMG_0229.jpg"
+    "Path": "images/IMG_0229.jpg",
+    "Vibe": "get_hype",
+    "Link": "https://youtu.be/qQkBeOisNM0?si=FWkDKj5Ydvvuojcq"
   },
   {
-    "Album_Name": "Harry's_House",
-    "Artist": "Harry_Styles",
+    "Album Name": "Harry's House",
+    "Artist": "Harry Styles",
     "Year": 2022,
     "Genre": "Pop",
-    "Path": "images/IMG_0230.jpg"
+    "Path": "images/IMG_0230.jpg",
+    "Vibe": "uplifting",
+    "Link": "https://youtu.be/e6MpCYZlBMk?si=JciZnAea2w3oovMr"
   },
   {
-    "Album_Name": "Vida_Cotidiana",
+    "Album Name": "Vida Cotidiana",
     "Artist": "Juanes",
     "Year": 2023,
-    "Genre": "Pop_Latino",
-    "Path": "images/IMG_0231.jpg"
+    "Genre": "Pop Latino",
+    "Path": "images/IMG_0231.jpg",
+    "Vibe": "uplifting",
+    "Link": "https://youtu.be/44usRQGap1Y?si=UluVGR-txV9-JV17"
   },
   {
-    "Album_Name": "Limón_y_Sal",
-    "Artist": "Julieta_Venegas",
+    "Album Name": "Limón y Sal",
+    "Artist": "Julieta Venegas",
     "Year": 2006,
-    "Genre": "Pop_Latino",
-    "Path": "images/IMG_0232.jpg"
+    "Genre": "Pop Latino",
+    "Path": "images/IMG_0232.jpg",
+    "Vibe": "uplifting",
+    "Link": "https://youtu.be/W1jXmi0arWg?si=0SIwUNzZ7MdddxWs"
   },
   {
-    "Album_Name": "Born_to_Die",
-    "Artist": "Lana_Del_Rey",
+    "Album Name": "Born to Die",
+    "Artist": "Lana Del Rey",
     "Year": 2012,
     "Genre": "Alternative",
-    "Path": "images/IMG_0233.jpg"
+    "Path": "images/IMG_0233.jpg",
+    "Vibe": "chill",
+    "Link": "https://youtu.be/WTtFdXJaMZQ?si=mK9mHj5SIliz4wVL"
   },
   {
-    "Album_Name": "K.I.D.S",
-    "Artist": "Mac_Miller",
+    "Album Name": "K.I.D.S",
+    "Artist": "Mac Miller",
     "Year": 2010,
     "Genre": "Hip-Hop",
-    "Path": "images/IMG_0234.jpg"
+    "Path": "images/IMG_0234.jpg",
+    "Vibe": "uplifting",
+    "Link": "https://youtu.be/h7NJfuVk9hY?si=2d93ud1k8bi1FyAX"
   },
   {
-    "Album_Name": "emails_i_can't_send",
-    "Artist": "Sabrina_Carpenter",
+    "Album Name": "emails i can't send",
+    "Artist": "Sabrina Carpenter",
     "Year": 2022,
     "Genre": "Pop",
-    "Path": "images/IMG_0235.jpg"
+    "Path": "images/IMG_0235.jpg",
+    "Vibe": "feeling_blue",
+    "Link": "https://youtu.be/hRiR5lZw5qA?si=vzDr004JyQ42Em6W"
   },
   {
-    "Album_Name": "Older_(and_Wiser)",
-    "Artist": "Lizzy_McAlpine",
+    "Album Name": "Older (and Wiser)",
+    "Artist": "Lizzy McAlpine",
     "Year": 2024,
     "Genre": "Alternative",
-    "Path": "images/IMG_0243.jpg"
+    "Path": "images/IMG_0243.jpg",
+    "Vibe": "feeling_blue",
+    "Link": "https://youtu.be/fURMwsfmdXU?si=CmcipitxJ-Kytxx5"
   },
   {
-    "Album_Name": "Bad",
-    "Artist": "Michael_Jackson",
+    "Album Name": "Bad",
+    "Artist": "Michael Jackson",
     "Year": 1987,
     "Genre": "Pop",
-    "Path": "images/IMG_0244.jpg"
+    "Path": "images/IMG_0244.jpg",
+    "Vibe": "get_hype",
+    "Link": "https://youtu.be/HzZ_urpj4As?si=3mQGgGsXGYhVkco2"
   },
   {
-    "Album_Name": "Legend-_The_Best_of_Bob_Marley_&_The_Wailers",
-    "Artist": "Bob_Marley",
+    "Album Name": "Legend- The Best of Bob Marley & The Wailers",
+    "Artist": "Bob Marley",
     "Year": 1984,
     "Genre": "Reggae",
-    "Path": "images/IMG_0251.jpg"
+    "Path": "images/IMG_0251.jpg",
+    "Vibe": "study_music",
+    "Link": "https://youtu.be/LanCLS_hIo4?si=z5p0qS0vvf6nAOfe"
   },
   {
-    "Album_Name": "Don't_Forget_About_Me,_Demos",
-    "Artist": "Dominic_Fike",
+    "Album Name": "Don't Forget About Me, Demos",
+    "Artist": "Dominic Fike",
     "Year": 2018,
     "Genre": "Alternative",
-    "Path": "images/IMG_0252.jpg"
+    "Path": "images/IMG_0252.jpg",
+    "Vibe": "chill",
+    "Link": "https://youtu.be/nb8CnIo_-_A?si=9wxqh9gbQPBCzH-Z"
   },
   {
-    "Album_Name": "Sublime",
+    "Album Name": "Sublime",
     "Artist": "Sublime",
     "Year": 1996,
     "Genre": "Rock",
-    "Path": "images/Sublime.png"
+    "Path": "images/Sublime.png",
+    "Vibe": "get_hype",
+    "Link": "https://youtu.be/ZuPOpDDueHg?si=mlxyfd-ChW-aRRfl"
   }
 ]
