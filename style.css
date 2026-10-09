@@ -113,19 +113,20 @@ h3 {
 
 .collections-page {
     background-color: var(--secondary-color);
-    display: grid
+    margin: 0; 
+    overflow-x: hidden;
 }
 .collection {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    width: 100vw;
+    box-sizing: border-box;
+    grid-template-columns: repeat(5, minmax(250px, 1fr));
 }
 .collection img {
-    width: 252px;
-    height: 45vh;
-    object-fit: cover;
+    height: 50vh;
 }
 .collection img:hover {
-    width:270px;
+    height: 51vh;
     filter: brightness(50%); 
 }
 .main-title-h1 {
@@ -164,35 +165,35 @@ button {
     color: var(--secondary-color);
     text-transform: lowercase;
     background-color: rgba(255, 255, 255, 0.6);
-    width: 120px;
-    height: 50px;
+    width: 9vw;
+    height: 7vh;
     margin: 10px;
     font-size: 1rem;
 }
 .random-song-generator {
     background-color: var(--primary-color);
     color: var(--secondary-color);
-    width: 150px;
-    height: 60px;
+    width: 15vw;
+    height: 7vh;
     rotate: 5deg;
 }
 .random-song-generator:hover {
     background-color: var(--primary-color);
     color: var(--secondary-color);
-    width: 150px;
-    height: 60px;
+    width: 15vw;
+    height: 7vh;
     rotate: -5deg;
 }
 button:hover {
     background-color: rgb(255, 255, 255);
-    width: 120px;
-    height: 50px;
+    width: 9vw;
+    height: 7vh;
     margin: 10px;
     font-size: 1rem;
 }
 main {
     display: grid;
-    grid-template-columns: .5fr 1fr;
+    grid-template-columns: 1fr 1fr;
     grid-template-areas: "section1 section2";
 }
 .filter-buttons {
@@ -230,4 +231,37 @@ main {
 }
 #Vesper-IMG {
     width: 1007px;
+}
+
+@media (max-width: 768px) {
+    :root {
+        --root-font-size: 12px;
+        --fluid-font-size-h1: clamp(4rem, 5vw + 2rem, 12rem);
+    }
+    main {
+        grid-template-columns: 1.5fr 1fr;
+    }
+    .collection {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .collection img {
+        align-self: center;
+        padding: 10vw;
+    }
+    button {
+        font-size: .75rem;
+    }
+    .filter-buttons {
+        grid-template-columns: 1fr;
+    }
+    h1, .main-title-h1, #second-row {
+        font-size: var(--fluid-font-size-h1);
+        text-align: center;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        line-height: 1.5;
+    }
+    #Vesper-IMG {
+        width: 100%;
+        height: auto;
+    }
 }
